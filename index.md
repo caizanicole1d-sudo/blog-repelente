@@ -750,7 +750,7 @@
     <h3>Uso adecuado del repelente para mosquitos</h3>
 
     <p>
-        Proyecto Interdisciplinario · Liceo Naval de Guayaquil
+        Proyecto interdisciplinario · Liceo Naval de Guayaquil
     </p>
 
 </footer>
