@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Uso adecuado del repelente</title>
+    <title>Uso adecuado del repelente para mosquitos</title>
 
     <style>
 
@@ -25,13 +25,13 @@
             line-height: 1.7;
         }
 
-        /* ---------- MENÚ ---------- */
+        /* ================= MENÚ ================= */
 
         nav {
             position: sticky;
             top: 0;
             z-index: 1000;
-            background: rgba(255,255,255,0.96);
+            background: rgba(255,255,255,0.97);
             backdrop-filter: blur(10px);
             display: flex;
             justify-content: center;
@@ -58,69 +58,84 @@
         }
 
 
-        /* ---------- PORTADA ---------- */
+        /* ================= PORTADA ================= */
 
         .hero {
-            min-height: 600px;
+            min-height: 650px;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
             padding: 80px 25px;
+
             background:
                 linear-gradient(
-                    rgba(31, 67, 49, 0.78),
-                    rgba(31, 67, 49, 0.78)
+                    rgba(31, 67, 49, 0.82),
+                    rgba(31, 67, 49, 0.82)
                 ),
                 linear-gradient(135deg, #789681, #d8dfd3);
+
             color: white;
         }
 
         .hero-content {
-            max-width: 900px;
+            max-width: 950px;
         }
 
-        .small-title {
+        .school {
+            font-size: 15px;
+            letter-spacing: 2px;
+            line-height: 1.8;
+            margin-bottom: 35px;
+            text-transform: uppercase;
+        }
+
+        .project {
+            font-size: 13px;
             letter-spacing: 4px;
             text-transform: uppercase;
-            font-size: 13px;
             margin-bottom: 20px;
-            opacity: 0.9;
+            color: #f0d9a7;
         }
 
         .hero h1 {
             font-size: clamp(42px, 7vw, 76px);
             line-height: 1.05;
-            margin-bottom: 25px;
+            margin-bottom: 35px;
             font-weight: 700;
         }
 
-        .hero p {
-            font-size: 20px;
-            max-width: 650px;
-            margin: auto;
-            opacity: 0.95;
+        .student-info {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            max-width: 900px;
+            margin: 35px auto 0;
         }
 
-        .hero-button {
-            display: inline-block;
-            margin-top: 35px;
-            padding: 14px 28px;
-            background: #f0d9a7;
-            color: #294333;
-            text-decoration: none;
-            border-radius: 30px;
-            font-weight: bold;
-            transition: 0.3s;
+        .info-box {
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.25);
+            border-radius: 15px;
+            padding: 18px 12px;
+            backdrop-filter: blur(5px);
         }
 
-        .hero-button:hover {
-            transform: translateY(-3px);
-            background: #fff0c9;
+        .info-box strong {
+            display: block;
+            color: #f0d9a7;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .info-box span {
+            font-size: 15px;
         }
 
 
-        /* ---------- SECCIONES ---------- */
+        /* ================= SECCIONES ================= */
 
         section {
             max-width: 1100px;
@@ -148,14 +163,8 @@
             color: #294333;
         }
 
-        .section-title p {
-            max-width: 650px;
-            margin: 12px auto 0;
-            color: #68736c;
-        }
 
-
-        /* ---------- TARJETAS ---------- */
+        /* ================= TARJETAS ================= */
 
         .cards {
             display: grid;
@@ -166,6 +175,7 @@
         .card {
             background: white;
             padding: 32px;
+            min-height: 190px;
             border-radius: 20px;
             box-shadow: 0 8px 25px rgba(40,60,45,0.08);
             transition: 0.3s;
@@ -194,18 +204,14 @@
             margin-bottom: 10px;
         }
 
-        .card p {
-            color: #68736c;
-        }
 
-
-        /* ---------- BLOQUE DESTACADO ---------- */
+        /* ================= BLOQUES DESTACADOS ================= */
 
         .highlight {
             background: #294333;
             color: white;
             border-radius: 30px;
-            padding: 60px;
+            padding: 65px;
             text-align: center;
             box-shadow: 0 15px 35px rgba(30,55,40,0.18);
         }
@@ -215,14 +221,8 @@
             margin-bottom: 15px;
         }
 
-        .highlight p {
-            max-width: 700px;
-            margin: auto;
-            color: #e5eee6;
-        }
 
-
-        /* ---------- GALERÍA ---------- */
+        /* ================= GALERÍA ================= */
 
         .gallery {
             display: grid;
@@ -249,42 +249,28 @@
         }
 
 
-        /* ---------- OPINIÓN ---------- */
+        /* ================= OPINIÓN ================= */
 
         .opinion {
             background: #e6eee4;
             border-radius: 30px;
-            padding: 55px;
-            text-align: center;
-        }
-
-        .opinion p {
-            max-width: 750px;
-            margin: auto;
-            font-size: 19px;
-            color: #4d5d51;
+            padding: 65px;
+            min-height: 220px;
         }
 
 
-        /* ---------- FUENTES ---------- */
+        /* ================= FUENTES ================= */
 
         .sources {
             background: white;
             border-radius: 25px;
             padding: 35px;
+            min-height: 150px;
             box-shadow: 0 8px 25px rgba(40,60,45,0.07);
         }
 
-        .sources ul {
-            padding-left: 25px;
-        }
 
-        .sources li {
-            margin: 10px 0;
-        }
-
-
-        /* ---------- FOOTER ---------- */
+        /* ================= FOOTER ================= */
 
         footer {
             background: #1e3025;
@@ -303,7 +289,7 @@
         }
 
 
-        /* ---------- CELULAR ---------- */
+        /* ================= CELULAR ================= */
 
         @media (max-width: 800px) {
 
@@ -317,7 +303,11 @@
             }
 
             .hero {
-                min-height: 500px;
+                min-height: 600px;
+            }
+
+            .student-info {
+                grid-template-columns: 1fr 1fr;
             }
 
             .cards {
@@ -329,7 +319,7 @@
             }
 
             .highlight {
-                padding: 40px 25px;
+                padding: 45px 25px;
             }
 
             .opinion {
@@ -339,6 +329,7 @@
             section {
                 padding: 65px 20px;
             }
+
         }
 
     </style>
@@ -380,7 +371,13 @@
 
     <div class="hero-content">
 
-        <div class="small-title">
+        <div class="school">
+            UNIDAD EDUCATIVA DE LAS FUERZAS ARMADAS<br>
+            LICEO NAVAL DE GUAYAQUIL<br>
+            «CMDTE. RAFAEL ANDRADE LALAMA»
+        </div>
+
+        <div class="project">
             Proyecto interdisciplinario
         </div>
 
@@ -389,14 +386,30 @@
             repelente para mosquitos
         </h1>
 
-        <p>
-            Un proyecto para conocer, investigar y experimentar
-            sobre la protección frente a los mosquitos.
-        </p>
 
-        <a href="#presentacion" class="hero-button">
-            Conocer el proyecto
-        </a>
+        <div class="student-info">
+
+            <div class="info-box">
+                <strong>Estudiante</strong>
+                <span>Caiza Nicole</span>
+            </div>
+
+            <div class="info-box">
+                <strong>Curso y paralelo</strong>
+                <span>1ro Delta</span>
+            </div>
+
+            <div class="info-box">
+                <strong>Docente responsable</strong>
+                <span>Génesis Rivera</span>
+            </div>
+
+            <div class="info-box">
+                <strong>Fecha</strong>
+                <span>22 de septiembre de 2026</span>
+            </div>
+
+        </div>
 
     </div>
 
@@ -412,11 +425,7 @@
 
         <span>01 · Presentación</span>
 
-        <h2>Conociendo nuestro proyecto</h2>
-
-        <p>
-            Aquí irá la presentación general del proyecto.
-        </p>
+        <h2>Presentación del proyecto</h2>
 
     </div>
 
@@ -427,11 +436,7 @@
 
             <div class="icon">🦟</div>
 
-            <h3>Tema</h3>
-
-            <p>
-                Espacio reservado para explicar el tema principal.
-            </p>
+            <h3>Uso adecuado del repelente</h3>
 
         </div>
 
@@ -440,11 +445,7 @@
 
             <div class="icon">🎯</div>
 
-            <h3>Objetivo</h3>
-
-            <p>
-                Aquí colocaremos el objetivo del proyecto.
-            </p>
+            <h3>Proyecto interdisciplinario</h3>
 
         </div>
 
@@ -453,11 +454,7 @@
 
             <div class="icon">🌿</div>
 
-            <h3>Importancia</h3>
-
-            <p>
-                Aquí explicaremos por qué es importante este proyecto.
-            </p>
+            <h3>Liceo Naval de Guayaquil</h3>
 
         </div>
 
@@ -475,11 +472,7 @@
 
         <span>02 · Investigación</span>
 
-        <h2>Lo que aprendimos</h2>
-
-        <p>
-            En esta sección irá la información investigada.
-        </p>
+        <h2>Investigación</h2>
 
     </div>
 
@@ -487,41 +480,18 @@
     <div class="cards">
 
         <div class="card">
-
             <div class="icon">🔬</div>
-
-            <h3>Investigación</h3>
-
-            <p>
-                Aquí irá la información científica del proyecto.
-            </p>
-
+            <h3>Investigación científica</h3>
         </div>
 
-
         <div class="card">
-
             <div class="icon">📖</div>
-
-            <h3>Conceptos importantes</h3>
-
-            <p>
-                Aquí colocaremos las definiciones necesarias.
-            </p>
-
+            <h3>Información del tema</h3>
         </div>
 
-
         <div class="card">
-
             <div class="icon">💡</div>
-
             <h3>Datos importantes</h3>
-
-            <p>
-                Aquí se colocarán los datos obtenidos durante la investigación.
-            </p>
-
         </div>
 
     </div>
@@ -538,11 +508,6 @@
 
         <h2>🧪 Materiales</h2>
 
-        <p>
-            En este espacio colocaremos los materiales utilizados
-            para elaborar nuestro producto.
-        </p>
-
     </div>
 
 </section>
@@ -557,11 +522,7 @@
 
         <span>04 · Evidencias</span>
 
-        <h2>Nuestro proceso</h2>
-
-        <p>
-            Aquí aparecerán las fotografías del proceso del proyecto.
-        </p>
+        <h2>Evidencias del proyecto</h2>
 
     </div>
 
@@ -570,32 +531,32 @@
 
         <div class="photo">
             📷<br>
-            Foto del proceso 1
+            Evidencia 1
         </div>
 
         <div class="photo">
             📷<br>
-            Foto del proceso 2
+            Evidencia 2
         </div>
 
         <div class="photo">
             📷<br>
-            Foto del proceso 3
+            Evidencia 3
         </div>
 
         <div class="photo">
             📷<br>
-            Foto del proceso 4
+            Evidencia 4
         </div>
 
         <div class="photo">
             📷<br>
-            Foto del proceso 5
+            Evidencia 5
         </div>
 
         <div class="photo">
             📷<br>
-            Foto del proceso 6
+            Evidencia 6
         </div>
 
     </div>
@@ -612,11 +573,6 @@
 
         <h2>🌿 Nuestro producto</h2>
 
-        <p>
-            Aquí presentaremos el repelente elaborado,
-            su preparación y sus características.
-        </p>
-
     </div>
 
 </section>
@@ -631,17 +587,12 @@
 
         <span>07 · Opinión</span>
 
-        <h2>Nuestra experiencia</h2>
+        <h2>Artículo de opinión</h2>
 
     </div>
 
 
     <div class="opinion">
-
-        <p>
-            Aquí colocaremos nuestra opinión y experiencia
-            durante la realización del proyecto.
-        </p>
 
     </div>
 
@@ -657,11 +608,7 @@
 
         <span>08 · Conclusiones</span>
 
-        <h2>Lo que nos llevamos</h2>
-
-        <p>
-            Aquí colocaremos las conclusiones finales del proyecto.
-        </p>
+        <h2>Conclusiones</h2>
 
     </div>
 
@@ -674,10 +621,6 @@
 
             <h3>Conclusión 1</h3>
 
-            <p>
-                Espacio reservado para la primera conclusión.
-            </p>
-
         </div>
 
 
@@ -687,10 +630,6 @@
 
             <h3>Conclusión 2</h3>
 
-            <p>
-                Espacio reservado para la segunda conclusión.
-            </p>
-
         </div>
 
 
@@ -699,10 +638,6 @@
             <div class="icon">✓</div>
 
             <h3>Conclusión 3</h3>
-
-            <p>
-                Espacio reservado para la tercera conclusión.
-            </p>
 
         </div>
 
@@ -727,30 +662,23 @@
 
     <div class="sources">
 
-        <ul>
-
-            <li>Fuente 1 — pendiente de agregar.</li>
-
-            <li>Fuente 2 — pendiente de agregar.</li>
-
-            <li>Fuente 3 — pendiente de agregar.</li>
-
-        </ul>
-
     </div>
 
 </section>
 
 
 
-<!-- ================= PIE ================= -->
+<!-- ================= PIE DE PÁGINA ================= -->
 
 <footer>
 
-    <h3>Uso adecuado del repelente para mosquitos</h3>
+    <h3>
+        Uso adecuado del repelente para mosquitos
+    </h3>
 
     <p>
-        Proyecto interdisciplinario · Liceo Naval de Guayaquil
+        Unidad Educativa de las Fuerzas Armadas ·
+        Liceo Naval de Guayaquil
     </p>
 
 </footer>
