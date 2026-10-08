@@ -566,7 +566,7 @@
 
             <div class="info-box">
                 <strong>Docente responsable</strong>
-                <span></span>
+                <span>Ricardo Jimenez</span>
             </div>
 
             <div class="info-box">
