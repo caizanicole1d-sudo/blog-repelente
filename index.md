@@ -3,368 +3,533 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Uso adecuado del repelente para mosquitos</title>
 
     <style>
-
         * {
-            box-sizing: border-box;
             margin: 0;
             padding: 0;
-        }
-
-        html {
+            box-sizing: border-box;
             scroll-behavior: smooth;
         }
 
         body {
-            font-family: "Segoe UI", Arial, sans-serif;
-            background: #f5f3ec;
-            color: #26352d;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f1e8;
+            color: #26382d;
             line-height: 1.7;
         }
 
-        /* ================= MENÚ ================= */
+        /* ================= NAV ================= */
 
         nav {
             position: sticky;
             top: 0;
             z-index: 1000;
-            background: rgba(255,255,255,0.97);
-            backdrop-filter: blur(10px);
+            background: #203d2c;
+            padding: 15px 25px;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
             gap: 8px;
-            padding: 16px 20px;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 3px 12px rgba(0,0,0,.15);
         }
 
         nav a {
+            color: white;
             text-decoration: none;
-            color: #365342;
-            font-size: 14px;
-            font-weight: 600;
-            padding: 9px 14px;
+            padding: 8px 14px;
             border-radius: 20px;
-            transition: 0.3s;
+            font-size: 14px;
+            transition: .3s;
         }
 
         nav a:hover {
-            background: #dce8dd;
-            color: #183a27;
+            background: #78977e;
         }
 
-
-        /* ================= PORTADA ================= */
+        /* ================= INICIO ================= */
 
         .hero {
-            min-height: 650px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 80px 25px;
-
+            min-height: 82vh;
             background:
-                linear-gradient(
-                    rgba(31, 67, 49, 0.82),
-                    rgba(31, 67, 49, 0.82)
-                ),
-                linear-gradient(135deg, #789681, #d8dfd3);
+                linear-gradient(rgba(28,58,41,.84), rgba(28,58,41,.84)),
+                url("imagenes/portada.jpg") center/cover no-repeat;
 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             color: white;
+            padding: 40px 20px;
         }
 
         .hero-content {
-            max-width: 950px;
-        }
-
-        .school {
-            font-size: 15px;
-            letter-spacing: 2px;
-            line-height: 1.8;
-            margin-bottom: 35px;
-            text-transform: uppercase;
-        }
-
-        .project {
-            font-size: 13px;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            margin-bottom: 20px;
-            color: #f0d9a7;
+            max-width: 1000px;
         }
 
         .hero h1 {
-            font-size: clamp(42px, 7vw, 76px);
-            line-height: 1.05;
-            margin-bottom: 35px;
-            font-weight: 700;
+            font-size: clamp(38px, 6vw, 65px);
+            line-height: 1.1;
+            margin-bottom: 20px;
         }
 
-        .student-info {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 15px;
-            max-width: 900px;
-            margin: 35px auto 0;
+        .hero h2 {
+            font-size: 22px;
+            font-weight: normal;
+            margin-bottom: 30px;
+            color: #e4eade;
         }
 
-        .info-box {
-            background: rgba(255,255,255,0.12);
-            border: 1px solid rgba(255,255,255,0.25);
-            border-radius: 15px;
-            padding: 18px 12px;
+        .hero-info {
+            display: inline-block;
+            text-align: left;
+            padding: 23px 30px;
+            border-radius: 20px;
+            background: rgba(255,255,255,.12);
+            border: 1px solid rgba(255,255,255,.25);
             backdrop-filter: blur(5px);
         }
 
-        .info-box strong {
-            display: block;
-            color: #f0d9a7;
-            font-size: 11px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 5px;
+        .hero-info p {
+            margin: 5px 0;
         }
-
-        .info-box span {
-            font-size: 15px;
-        }
-
 
         /* ================= SECCIONES ================= */
 
         section {
-            max-width: 1100px;
+            max-width: 1150px;
             margin: auto;
-            padding: 90px 25px;
+            padding: 75px 25px;
         }
 
-        .section-title {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        .section-title span {
-            display: block;
-            color: #789681;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            font-size: 12px;
+        .section-number {
+            color: #6d8c73;
             font-weight: bold;
-            margin-bottom: 8px;
+            font-size: 14px;
+            letter-spacing: 2px;
+            margin-bottom: 7px;
         }
 
-        .section-title h2 {
-            font-size: 38px;
-            color: #294333;
+        section h2 {
+            color: #203d2c;
+            font-size: 36px;
+            margin-bottom: 25px;
         }
 
+        section h3 {
+            color: #315a41;
+            margin-bottom: 12px;
+        }
 
-        /* ================= TARJETAS ================= */
+        .intro {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
 
-        .cards {
+        /* ================= PRESENTACIÓN ================= */
+
+        .presentation {
+            background: white;
+            padding: 38px;
+            border-radius: 25px;
+            box-shadow: 0 5px 20px rgba(0,0,0,.07);
+        }
+
+        .presentation p {
+            margin-bottom: 18px;
+        }
+
+        .goals {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 25px;
+            gap: 20px;
+            margin-top: 30px;
         }
 
-        .card {
+        .goal {
+            background: #edf2e9;
+            padding: 23px;
+            border-radius: 18px;
+        }
+
+        .goal h3 {
+            font-size: 27px;
+        }
+
+        .phrase {
+            margin-top: 30px;
+            background: #f0f4ed;
+            border-left: 5px solid #6d8c73;
+            padding: 25px;
+            font-size: 19px;
+            font-style: italic;
+        }
+
+        /* ================= INVESTIGACIÓN ================= */
+
+        #investigacion {
+            max-width: none;
+            background: #e8eee5;
+        }
+
+        #investigacion > .section-number,
+        #investigacion > h2,
+        #investigacion > .intro,
+        #investigacion > .research-grid,
+        #investigacion > .learn-title,
+        #investigacion > .point-list,
+        #investigacion > .source-note {
+            max-width: 1100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .research-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 22px;
+            margin-top: 30px;
+        }
+
+        .research-card {
             background: white;
-            padding: 32px;
-            min-height: 190px;
+            padding: 28px;
             border-radius: 20px;
-            box-shadow: 0 8px 25px rgba(40,60,45,0.08);
-            transition: 0.3s;
-            border: 1px solid #e7ebe5;
+            box-shadow: 0 4px 15px rgba(0,0,0,.06);
         }
 
-        .card:hover {
-            transform: translateY(-7px);
-            box-shadow: 0 15px 30px rgba(40,60,45,0.13);
+        .research-card p {
+            text-align: justify;
         }
 
-        .icon {
-            width: 55px;
-            height: 55px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 15px;
-            background: #e2ebe1;
-            font-size: 25px;
-            margin-bottom: 20px;
+        .learn-title {
+            margin-top: 60px;
         }
 
-        .card h3 {
-            color: #294333;
+        .point-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+        }
+
+        .point {
+            background: white;
+            padding: 23px;
+            border-radius: 18px;
+            box-shadow: 0 4px 12px rgba(0,0,0,.05);
+        }
+
+        .point strong {
+            display: block;
+            color: #315a41;
+            font-size: 17px;
             margin-bottom: 10px;
         }
 
-
-        /* ================= BLOQUES DESTACADOS ================= */
-
-        .highlight {
-            background: #294333;
-            color: white;
-            border-radius: 30px;
-            padding: 65px;
-            text-align: center;
-            box-shadow: 0 15px 35px rgba(30,55,40,0.18);
+        .point p {
+            text-align: justify;
         }
 
-        .highlight h2 {
-            font-size: 40px;
-            margin-bottom: 15px;
+        .source-note {
+            margin-top: 30px;
+            background: #dce6d9;
+            padding: 20px;
+            border-radius: 15px;
         }
 
+        /* ================= MATERIALES ================= */
 
-        /* ================= GALERÍA ================= */
+        .materials-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
 
-        .gallery {
+        .material {
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,.06);
+            border-top: 5px solid #76957d;
+        }
+
+        .material h3 {
+            font-size: 19px;
+        }
+
+        .material p {
+            text-align: justify;
+        }
+
+        /* ================= EVIDENCIAS ================= */
+
+        #evidencias {
+            max-width: none;
+            background: #e8eee5;
+        }
+
+        .evidence-content {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .stage {
+            margin-top: 45px;
+        }
+
+        .stage h3 {
+            font-size: 25px;
+            margin-bottom: 18px;
+        }
+
+        .photos {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
         }
 
         .photo {
-            height: 240px;
-            border-radius: 20px;
-            background: linear-gradient(135deg, #d9e3d8, #edf0e9);
-            display: flex;
-            align-items: center;
+            height: 230px;
+            border-radius: 18px;
+            overflow: hidden;
+            background: #d8e1d5;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,.10);
+        }
+
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: .3s;
+        }
+
+        .photo:hover img {
+            transform: scale(1.05);
+        }
+
+        /* ================= MODAL ================= */
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 3000;
+            inset: 0;
+            background: rgba(0,0,0,.90);
             justify-content: center;
-            text-align: center;
-            color: #657269;
-            font-weight: 600;
-            border: 2px dashed #b8c7b8;
-            transition: 0.3s;
+            align-items: center;
+            padding: 30px;
         }
 
-        .photo:hover {
-            transform: scale(1.02);
+        .modal img {
+            max-width: 92%;
+            max-height: 88vh;
+            border-radius: 12px;
         }
 
+        .close {
+            position: absolute;
+            right: 30px;
+            top: 15px;
+            color: white;
+            font-size: 48px;
+            cursor: pointer;
+        }
+
+        /* ================= PRODUCTO ================= */
+
+        .product-box {
+            background: white;
+            padding: 35px;
+            border-radius: 25px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 35px;
+            box-shadow: 0 5px 20px rgba(0,0,0,.07);
+        }
+
+        .product-image {
+            min-height: 350px;
+            border-radius: 20px;
+            overflow: hidden;
+            background: #dfe7dc;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
         /* ================= OPINIÓN ================= */
 
-        .opinion {
-            background: #e6eee4;
-            border-radius: 30px;
-            padding: 65px;
-            min-height: 220px;
+        #opinion {
+            max-width: none;
+            background: #e8eee5;
         }
 
+        .opinion-content {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 5px 20px rgba(0,0,0,.06);
+        }
+
+        .opinion-content h3 {
+            font-size: 29px;
+        }
+
+        .opinion-content p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        /* ================= CONCLUSIONES ================= */
+
+        .conclusions {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .conclusion {
+            background: white;
+            padding: 27px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,.06);
+        }
+
+        .conclusion-number {
+            color: #6d8c73;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .conclusion p {
+            text-align: justify;
+        }
 
         /* ================= FUENTES ================= */
 
-        .sources {
-            background: white;
-            border-radius: 25px;
-            padding: 35px;
-            min-height: 150px;
-            box-shadow: 0 8px 25px rgba(40,60,45,0.07);
+        #fuentes {
+            max-width: none;
+            background: #203d2c;
+            color: white;
         }
 
+        .sources-content {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        #fuentes h2 {
+            color: white;
+        }
+
+        .source-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin-top: 25px;
+        }
+
+        .source {
+            background: rgba(255,255,255,.10);
+            padding: 22px;
+            border-radius: 17px;
+        }
+
+        .source h3 {
+            color: white;
+        }
 
         /* ================= FOOTER ================= */
 
         footer {
-            background: #1e3025;
+            background: #14281d;
             color: white;
             text-align: center;
-            padding: 45px 20px;
-        }
-
-        footer h3 {
-            margin-bottom: 10px;
-            font-size: 22px;
+            padding: 30px 20px;
         }
 
         footer p {
-            color: #cbd7cd;
+            margin: 5px;
         }
 
+        /* ================= RESPONSIVE ================= */
 
-        /* ================= CELULAR ================= */
+        @media (max-width: 900px) {
 
-        @media (max-width: 800px) {
-
-            nav {
-                gap: 3px;
+            .goals,
+            .point-list,
+            .materials-grid,
+            .source-list {
+                grid-template-columns: repeat(2, 1fr);
             }
+
+            .photos {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 650px) {
 
             nav a {
                 font-size: 12px;
                 padding: 7px 9px;
             }
 
-            .hero {
-                min-height: 600px;
-            }
-
-            .student-info {
-                grid-template-columns: 1fr 1fr;
-            }
-
-            .cards {
-                grid-template-columns: 1fr;
-            }
-
-            .gallery {
-                grid-template-columns: 1fr;
-            }
-
-            .highlight {
-                padding: 45px 25px;
-            }
-
-            .opinion {
-                padding: 40px 25px;
-            }
-
             section {
-                padding: 65px 20px;
+                padding: 55px 18px;
             }
 
-        }
+            section h2 {
+                font-size: 29px;
+            }
 
+            .goals,
+            .research-grid,
+            .point-list,
+            .materials-grid,
+            .photos,
+            .conclusions,
+            .source-list,
+            .product-box {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-info {
+                text-align: center;
+            }
+
+            .presentation,
+            .opinion-content {
+                padding: 25px;
+            }
+        }
     </style>
 </head>
 
-
 <body>
-
 
 <!-- ================= MENÚ ================= -->
 
 <nav>
-
     <a href="#inicio">Inicio</a>
-
     <a href="#presentacion">Presentación</a>
-
     <a href="#investigacion">Investigación</a>
-
     <a href="#materiales">Materiales</a>
-
     <a href="#evidencias">Evidencias</a>
-
     <a href="#producto">Producto</a>
-
     <a href="#opinion">Opinión</a>
-
     <a href="#conclusiones">Conclusiones</a>
-
     <a href="#fuentes">Fuentes</a>
-
 </nav>
-
-
-
 <!-- ================= PORTADA ================= -->
 
 <header class="hero" id="inicio">
