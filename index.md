@@ -401,7 +401,7 @@
 
             <div class="info-box">
                 <strong>Docente responsable</strong>
-                <span>Génesis Rivera</span>
+                <span></span>
             </div>
 
             <div class="info-box">
@@ -417,45 +417,81 @@
 
 
 
-<!-- ================= PRESENTACIÓN ================= -->
+<!-- ================= SECCIÓN 01 ================= -->
 
 <section id="presentacion">
 
-    <div class="section-title">
-
-        <span>01 · Presentación</span>
-
-        <h2>Presentación del proyecto</h2>
-
+    <div class="section-number">
+        SECCION 01
     </div>
 
+    <h2>Presentación del proyecto</h2>
 
-    <div class="cards">
+    <div class="presentation">
 
-        <div class="card">
+        <p>
+            Este proyecto surge a partir de una inquietud común que surgió durante la clase:
+            aunque la mayoría de nosotros hemos aplicado repelente más de una vez,
+            ¿realmente le damos el uso correcto? Con ese interrogante en mente, el grupo de
+            Primero de Bachillerato asumió el reto de indagar, contrastar datos de instituciones
+            de salud y elaborar una guía accesible que enseñe a la comunidad a prevenir de
+            manera adecuada las picaduras de mosquitos.
+        </p>
 
-            <div class="icon">🦟</div>
+        <p>
+            Seleccionamos este tema debido a las condiciones climáticas de Guayaquil, una
+            ciudad caracterizada por su ambiente cálido y lluvioso que propicia la
+            acumulación de mosquitos en cualquier época. Ante esta realidad, el repelente deja
+            de ser un artículo opcional para convertirse en una medida indispensable de
+            protección diaria, útil tanto en los hogares como en la unidad educativa y en
+            espacios abiertos.
+        </p>
 
-            <h3>Uso adecuado del repelente</h3>
+        <p>
+            Comprender su correcta aplicación es fundamental, ya que un uso inadecuado
+            compromete su efectividad e incluso puede provocar reacciones indeseadas. Por
+            ello, nos enfocamos en sintetizar la información de fuentes especializadas y
+            plasmarla en un formato claro y práctico, pensado para que cualquier estudiante
+            o familiar pueda ponerlo en práctica fácilmente.
+        </p>
+
+        <p>
+            A través de este trabajo nos planteamos tres metas principales:
+        </p>
+
+        <div class="goals">
+
+            <div class="goal">
+                <h3>01</h3>
+                <p>
+                    Desarrollar un criterio analítico para identificar información científica
+                    confiable.
+                </p>
+            </div>
+
+            <div class="goal">
+                <h3>02</h3>
+                <p>
+                    Promover una cultura de cuidado y salud preventiva en nuestro entorno
+                    escolar.
+                </p>
+            </div>
+
+            <div class="goal">
+                <h3>03</h3>
+                <p>
+                    Crear una herramienta perdurable que sirva de apoyo a futuras
+                    promociones de estudiantes.
+                </p>
+            </div>
 
         </div>
 
-
-        <div class="card">
-
-            <div class="icon">🎯</div>
-
-            <h3>Proyecto interdisciplinario</h3>
-
-        </div>
-
-
-        <div class="card">
-
-            <div class="icon">🌿</div>
-
-            <h3>Liceo Naval de Guayaquil</h3>
-
+        <div class="phrase">
+            «Protegernos correctamente no es solo aplicarnos un producto, sino conocer cómo
+            cuidar nuestra salud con responsabilidad.»
+            <br><br>
+            <strong>Equipo de investigación, 1.º BGU</strong>
         </div>
 
     </div>
@@ -463,100 +499,421 @@
 </section>
 
 
-
-<!-- ================= INVESTIGACIÓN ================= -->
+<!-- ================= SECCIÓN 02 ================= -->
 
 <section id="investigacion">
 
-    <div class="section-title">
+    <div class="section-number">
+        SECCIÓN 02
+    </div>
 
-        <span>02 · Investigación</span>
+    <h2>CONOCIENDO EL PROBLEMA</h2>
 
-        <h2>Investigación</h2>
+    <p class="intro">
+        Previo a plantear soluciones o sugerencias, estructuramos nuestro análisis
+        respondiendo a cuatro preguntas clave. De esta forma garantizamos un enfoque
+        metódico y sustentado para nuestro proyecto.
+    </p>
+
+
+    <div class="research-grid">
+
+        <div class="research-card">
+
+            <h3>¿Por qué se realiza esta investigación?</h3>
+
+            <p>
+                Las picaduras de insectos sobrepasan la simple molestia cutánea: en nuestra
+                región representan el principal vector de contagio de virosis como el dengue.
+                Comprender los riesgos biológicos y dominar la aplicación adecuada de barreras
+                protectoras es una acción fundamental para salvaguardar el bienestar individual
+                y familiar.
+            </p>
+
+        </div>
+
+
+        <div class="research-card">
+
+            <h3>¿Para qué se realiza?</h3>
+
+            <p>
+                Buscamos desarrollar un aprendizaje práctico y fomentar hábitos preventivos
+                sólidos en nuestra comunidad escolar. Pretendemos que el uso de protección
+                corporal se realice con criterios científicos validados por organismos de salud,
+                dejando de lado supuestos, mitos o costumbres infundadas.
+            </p>
+
+        </div>
+
+
+        <div class="research-card">
+
+            <h3>¿Bajo qué contexto se realiza?</h3>
+
+            <p>
+                El entorno de Guayaquil combina elevadas temperaturas con alta humedad y
+                temporadas pluviales que propician la proliferación del vector Aedes aegypti.
+                Dentro de este escenario geográfico y en el marco de una institución que fomenta
+                la autocuidado y la responsabilidad social, analizar la prevención de picaduras
+                resulta indispensable y de gran utilidad práctica.
+            </p>
+
+        </div>
+
+
+        <div class="research-card">
+
+            <h3>¿Qué investigaron los estudiantes?</h3>
+
+            <p>
+                Examinamos la composición de las fórmulas repelentes, su mecanismo de acción,
+                los momentos oportunos de uso, así como las pautas de seguridad y las
+                equivocaciones habituales al aplicarlos. Cada uno de estos tópicos se detalla
+                minuciosamente en el siguiente bloque.
+            </p>
+
+        </div>
 
     </div>
 
 
-    <div class="cards">
+    <h2 class="learn-title">
+        LO QUE APRENDIMOS, PUNTO POR PUNTO
+    </h2>
 
-        <div class="card">
-            <div class="icon">🔬</div>
-            <h3>Investigación científica</h3>
+    <p class="intro">
+        Sintetizamos los hallazgos en los siguientes temas clave. 
+    </p>
+
+
+    <div class="point-list">
+
+        <div class="point">
+
+            <strong>01. ¿Qué es un repelente?</strong>
+
+            <p>
+                Sustancia o preparado formulado para ahuyentar o desorientar a los insectos,
+                evitando que se posen o piquen sobre la superficie cutánea.
+            </p>
+
         </div>
 
-        <div class="card">
-            <div class="icon">📖</div>
-            <h3>Información del tema</h3>
+
+        <div class="point">
+
+            <strong>02. ¿Para qué sirve?</strong>
+
+            <p>
+                Actúa como una barrera química preventiva que reduce significativamente el
+                contacto con vectores de enfermedades.
+            </p>
+
         </div>
 
-        <div class="card">
-            <div class="icon">💡</div>
-            <h3>Datos importantes</h3>
+
+        <div class="point">
+
+            <strong>03. ¿Cómo funciona?</strong>
+
+            <p>
+                Bloquea los receptores olfativos del mosquito, impidiendo que detecte el
+                dióxido de carbono y el sudor que emite el cuerpo humano.
+            </p>
+
         </div>
+
+
+        <div class="point">
+
+            <strong>04. ¿Cuándo debe utilizarse?</strong>
+
+            <p>
+                Especialmente en las horas de mayor actividad del mosquito (primeras horas de
+                la mañana y al atardecer) y al permanecer en espacios abiertos o húmedos.
+            </p>
+
+        </div>
+
+
+        <div class="point">
+
+            <strong>05. ¿Cómo debe aplicarse correctamente?</strong>
+
+            <p>
+                Rociando o extendiendo una capa uniforme sobre la piel expuesta y la ropa,
+                evitando frotar en exceso o aplicar en lugares cubiertos.
+            </p>
+
+        </div>
+
+
+        <div class="point">
+
+            <strong>06. ¿Qué precauciones deben tenerse?</strong>
+
+            <p>
+                No aplicar sobre heridas, ojos o boca, evitar el uso excesivo y mantener fuera
+                del alcance de niños pequeños sin supervisión.
+            </p>
+
+        </div>
+
+
+        <div class="point">
+
+            <strong>07. ¿Qué errores deben evitarse?</strong>
+
+            <p>
+                Mezclar incorrectamente con protector solar (se debe poner primero el bloqueador
+                y luego el repelente), inhalar el producto o usar concentraciones no aptas para la
+                edad.
+            </p>
+
+        </div>
+
+
+        <div class="point">
+
+            <strong>08. La importancia de leer la etiqueta</strong>
+
+            <p>
+                Revisar las instrucciones permite conocer la concentración del principio activo
+                (como DEET o Icaridina), la frecuencia de reaplicación y las edades permitidas.
+            </p>
+
+        </div>
+
+
+        <div class="point">
+
+            <strong>09. Prevención vs. tratamiento: ¿es lo mismo?</strong>
+
+            <p>
+                No; la prevención busca evitar la picadura antes de que ocurra, mientras que el
+                tratamiento atiende los síntomas (como picazón o inflamación) una vez que el
+                insecto ya picó.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="source-note">
+
+        <strong>Fuente de la información:</strong>
+
+        La información de esta sección fue elaborada a partir de materiales de
+        divulgación del Ministerio de Salud Pública del Ecuador, la Organización
+        Panamericana de la Salud / OMS, los CDC de Estados Unidos y la Agencia de
+        Protección Ambiental (EPA).
 
     </div>
 
 </section>
 
 
-
-<!-- ================= MATERIALES ================= -->
+<!-- ================= SECCIÓN 03 ================= -->
 
 <section id="materiales">
 
-    <div class="highlight">
+    <div class="section-number">
+        SECCIÓN 03
+    </div>
 
-        <h2>🧪 Materiales</h2>
+    <h2>MATERIALES DEL PROYECTO</h2>
+
+    <p class="intro">
+        Estos fueron los recursos y reactivos utilizados para la experimentación
+        y elaboración del prototipo de repelente de origen vegetal.
+    </p>
+
+
+    <div class="materials-grid">
+
+        <div class="material">
+
+            <h3>Repelente para mosquitos</h3>
+
+            <p>
+                Producto comercial de referencia empleado como elemento base para la
+                comparación de eficacia y la inspección de su etiquetado informativo.
+            </p>
+
+        </div>
+
+
+        <div class="material">
+
+            <h3>Plantas aromáticas</h3>
+
+            <p>
+                Muestra vegetal de citronela y hierba luisa,
+                utilizadas como insumo activo natural para la extracción
+                de aceites esenciales y fragancias.
+            </p>
+
+        </div>
+
+
+        <div class="material">
+
+            <h3>Alcohol antiséptico al 70 %</h3>
+
+            <p>
+                Solución a base de etanol empleada como agente extractor del material
+                vegetal para disolver y concentrar las sustancias activas de las plantas.
+            </p>
+
+        </div>
+
+
+        <div class="material">
+
+            <h3>Mortero y pistilo</h3>
+
+            <p>
+                Instrumento de laboratorio utilizado para triturar y macerar las hojas
+                y tallos, facilitando la extracción de los componentes aromáticos.
+            </p>
+
+        </div>
+
+
+        <div class="material">
+
+            <h3>Balanza y probeta</h3>
+
+            <p>
+                Equipos de medición para determinar con precisión la masa de las plantas
+                (5 g de cada una) y el volumen del solvente (50 mL).
+            </p>
+
+        </div>
+
+
+        <div class="material">
+
+            <h3>Vasos de precipitación y varilla</h3>
+
+            <p>
+                Recipientes de cristal y agitador usados para realizar la mezcla, permitir
+                el reposo de la extracción y homogeneizar el preparado.
+            </p>
+
+        </div>
+
+
+        <div class="material">
+
+            <h3>Embudo y papel filtro</h3>
+
+            <p>
+                Sistema de filtrado para separar los residuos sólidos del extracto líquido
+                obtenido durante el proceso de maceración.
+            </p>
+
+        </div>
+
+
+        <div class="material">
+
+            <h3>Frasco con atomizador</h3>
+
+            <p>
+                Envase final dosificador que permite almacenar el repelente obtenido y
+                aplicarlo de forma uniforme en aerosol.
+            </p>
+
+        </div>
 
     </div>
 
 </section>
 
 
-
-<!-- ================= EVIDENCIAS ================= -->
+<!-- ================= SECCIÓN 04 ================= -->
 
 <section id="evidencias">
 
-    <div class="section-title">
+    <div class="evidence-content">
 
-        <span>04 · Evidencias</span>
-
-        <h2>Evidencias del proyecto</h2>
-
-    </div>
-
-
-    <div class="gallery">
-
-        <div class="photo">
-            📷<br>
-            Evidencia 1
+        <div class="section-number">
+            SECCIÓN 04
         </div>
 
-        <div class="photo">
-            📷<br>
-            Evidencia 2
+        <h2>EVIDENCIAS</h2>
+
+        <p class="intro">
+            Evidencias del desarrollo del proyecto.
+            Haz clic sobre una imagen para verla en tamaño grande.
+        </p>
+
+
+        <div class="stage">
+
+            <h3>Investigación</h3>
+
+            <div class="photos">
+
+                <div class="photo" onclick="abrirImagen('imagenes/evidencia1.jpg')">
+                    <img src="imagenes/evidencia1.jpg" alt="Evidencia 1">
+                </div>
+
+                <div class="photo" onclick="abrirImagen('imagenes/evidencia2.jpg')">
+                    <img src="imagenes/evidencia2.jpg" alt="Evidencia 2">
+                </div>
+
+                <div class="photo" onclick="abrirImagen('imagenes/evidencia3.jpg')">
+                    <img src="imagenes/evidencia3.jpg" alt="Evidencia 3">
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="photo">
-            📷<br>
-            Evidencia 3
+
+        <div class="stage">
+
+            <h3>Elaboración</h3>
+
+            <div class="photos">
+
+                <div class="photo" onclick="abrirImagen('imagenes/evidencia4.jpg')">
+                    <img src="imagenes/evidencia4.jpg" alt="Evidencia 4">
+                </div>
+
+                <div class="photo" onclick="abrirImagen('imagenes/evidencia5.jpg')">
+                    <img src="imagenes/evidencia5.jpg" alt="Evidencia 5">
+                </div>
+
+                <div class="photo" onclick="abrirImagen('imagenes/evidencia6.jpg')">
+                    <img src="imagenes/evidencia6.jpg" alt="Evidencia 6">
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="photo">
-            📷<br>
-            Evidencia 4
-        </div>
 
-        <div class="photo">
-            📷<br>
-            Evidencia 5
-        </div>
+        <div class="stage">
 
-        <div class="photo">
-            📷<br>
-            Evidencia 6
+            <h3>Proceso del proyecto</h3>
+
+            <div class="photos">
+
+                <div class="photo" onclick="abrirImagen('imagenes/evidencia7.jpg')">
+                    <img src="imagenes/evidencia7.jpg" alt="Evidencia 7">
+                </div>
+
+                <div class="photo" onclick="abrirImagen('imagenes/evidencia8.jpg')">
+                    <img src="imagenes/evidencia8.jpg" alt="Evidencia 8">
+                </div>
+
+            </div>
+
         </div>
 
     </div>
@@ -564,80 +921,197 @@
 </section>
 
 
-
-<!-- ================= PRODUCTO ================= -->
+<!-- ================= SECCIÓN 05 ================= -->
 
 <section id="producto">
 
-    <div class="highlight">
+    <div class="section-number">
+        SECCIÓN 05
+    </div>
 
-        <h2>🌿 Nuestro producto</h2>
+    <h2>NUESTRO PRODUCTO</h2>
+
+    <div class="product-box">
+
+        <div class="product-image">
+
+            <img
+                src="imagenes/producto.jpg"
+                alt="Producto elaborado"
+            >
+
+        </div>
+
+        <div>
+
+            <h3>Repelente a base de plantas aromáticas</h3>
+
+            <p>
+                El proyecto contempla la elaboración de un prototipo de biorepelente
+                utilizando material vegetal aromático y alcohol al 70 % como agente
+                extractor.
+            </p>
+
+            <br>
+
+            <p>
+                El producto final se almacena en un frasco con atomizador para facilitar
+                su aplicación.
+            </p>
+
+        </div>
 
     </div>
 
 </section>
 
 
-
-<!-- ================= OPINIÓN ================= -->
+<!-- ================= SECCIÓN 06 ================= -->
 
 <section id="opinion">
 
-    <div class="section-title">
+    <div class="opinion-content">
 
-        <span>07 · Opinión</span>
+        <div class="section-number">
+            SECCIÓN 06 · ARTÍCULO DE OPINIÓN
+        </div>
 
-        <h2>Artículo de opinión</h2>
+        <h2>NUESTRA OPINIÓN</h2>
 
-    </div>
+        <h3>
+            El poder de las plantas: la naturaleza
+            como escudo contra los mosquitos
+        </h3>
 
+        <p>
+            En nuestra vida cotidiana, las picaduras de mosquitos no solo son molestas, sino que
+            también representan un peligro para la salud porque pueden transmitir varias
+            enfermedades. Para protegernos, casi siempre acudimos a los repelentes, pero es
+            importante entender cómo funcionan realmente. A diferencia de los insecticidas, que
+            están hechos para matar al insecto, los repelentes son compuestos (químicos o naturales)
+            diseñados para evitar que artrópodos como mosquitos, garrapatas o moscas se posen
+            sobre la piel o la ropa.
+           
+        </p>
 
-    <div class="opinion">
+        <p>
+            En este sentido, yo opino que los repelentes a base de plantas naturales son la mejor
+            opción para protegernos, ya que logran desorientar los sensores de los mosquitos y
+            volvernos "invisibles" para ellos sin necesidad de hacerles daño.
+        </p>
+
+        <p>
+            En primer lugar, hay que entender que los mosquitos no nos buscan por suerte o
+            casualidad. Ellos se orientan usando receptores olfativos que detectan el dióxido de
+            carbono (CO2) que expulsamos al respirar, el ácido láctico del sudor y el calor de nuestro
+            cuerpo. Cuando aplicamos un biorepelente con extractos de plantas aromáticas (como la
+            citronela, el eucalipto o la menta), sus aromas saturan y bloquean estos sensores. Al no
+            poder oler nuestras señales químicas, el mosquito se desorienta y la persona se vuelve
+            prácticamente "invisible" ante sus sentidos.
+        </p>
+
+        <p>
+            Por otro lado, a través del trabajo de laboratorio que realizamos con nuestro grupo,
+            pudimos comprobar que es muy fácil aprovechar el poder de las plantas. Con pasos
+            sencillos como triturar las hojas, extraer sus esencias con alcohol al 70 % y filtrarlas bien,
+            logramos obtener un extracto muy concentrado. Además, al combinar dos plantas
+            diferentes, los aromas se potencian y el efecto repelente es aún mayor. Esto demuestra que
+            no necesitamos usar químicos sintéticos fuertes cuando la propia naturaleza nos da
+            soluciones naturales, ecológicas y seguras para la piel.
+        </p>
+
+        <p>
+            Para terminar, considero que la naturaleza es un verdadero escudo que nos protege de los
+            insectos. Aprender a elaborar nuestro propio biorepelente a base de plantas aromáticas
+            nos enseña que es posible cuidar nuestra salud de forma natural, previniendo picaduras
+            sin tener que matar a los mosquitos ni contaminar nuestro entorno. Apoyar estas
+            alternativas naturales es la mejor manera de cuidar de nosotros y del medio ambiente al
+            mismo tiempo.
+        </p>
 
     </div>
 
 </section>
 
 
-
-<!-- ================= CONCLUSIONES ================= -->
+<!-- ================= SECCIÓN 07 ================= -->
 
 <section id="conclusiones">
 
-    <div class="section-title">
-
-        <span>08 · Conclusiones</span>
-
-        <h2>Conclusiones</h2>
-
+    <div class="section-number">
+        SECCIÓN 07
     </div>
 
+    <h2>¿QUÉ APRENDIMOS?</h2>
 
-    <div class="cards">
+    <p class="intro">
+        Estas son las conclusiones que el equipo obtuvo al cerrar la investigación.
+    </p>
 
-        <div class="card">
 
-            <div class="icon">✓</div>
+    <div class="conclusions">
 
-            <h3>Conclusión 1</h3>
+        <div class="conclusion">
+
+            <div class="conclusion-number">01</div>
+
+            <p>
+                Un uso consciente y acertado del repelente transforma un producto
+                cotidiano en una barrera efectiva contra insectos, marcando la diferencia
+                frente a su aplicación incorrecta o al azar.
+            </p>
 
         </div>
 
 
-        <div class="card">
+        <div class="conclusion">
 
-            <div class="icon">✓</div>
+            <div class="conclusion-number">02</div>
 
-            <h3>Conclusión 2</h3>
+            <p>
+                Revisar detenidamente las indicaciones de la etiqueta es un paso clave para
+                garantizar la seguridad, aunque con frecuencia es una práctica ignorada por
+                gran parte de la población.
+            </p>
 
         </div>
 
 
-        <div class="card">
+        <div class="conclusion">
 
-            <div class="icon">✓</div>
+            <div class="conclusion-number">03</div>
 
-            <h3>Conclusión 3</h3>
+            <p>
+                La protección integral exige combinar el repelente con otras acciones
+                preventivas, como vestir ropa protectora y eliminar los recipientes con agua
+                estancada en nuestras viviendas y zonas escolares.
+            </p>
+
+        </div>
+
+
+        <div class="conclusion">
+
+            <div class="conclusion-number">04</div>
+
+            <p>
+                Es esencial filtrar la información de salud y validar los datos en entidades
+                autorizadas —tales como el Ministerio de Salud Pública, la OPS/OMS o los
+                CDC— para evitar mitos y transmitir datos verídicos.
+            </p>
+
+        </div>
+
+
+        <div class="conclusion">
+
+            <div class="conclusion-number">05</div>
+
+            <p>
+                El trabajo investigativo en grupo fortaleció nuestro criterio analítico y la
+                cooperación, permitiéndonos asumir un rol activo en la promoción de la
+                salud dentro de nuestra comunidad.
+            </p>
 
         </div>
 
@@ -646,43 +1120,133 @@
 </section>
 
 
-
-<!-- ================= FUENTES ================= -->
+<!-- ================= SECCIÓN 08 ================= -->
 
 <section id="fuentes">
 
-    <div class="section-title">
+    <div class="sources-content">
 
-        <span>09 · Fuentes</span>
+        <div class="section-number">
+            SECCIÓN 08
+        </div>
 
-        <h2>Fuentes consultadas</h2>
+        <h2>FUENTES CONSULTADAS</h2>
 
-    </div>
+        <p>
+            Las fuentes utilizadas para la elaboración de la investigación fueron:
+        </p>
 
 
-    <div class="sources">
+        <div class="source-list">
+
+            <div class="source">
+                <h3>Ministerio de Salud Pública del Ecuador</h3>
+                <p>
+                   «Ecuador en alerta para prevenir el contagio del dengue»
+                   Consultado en 2026 · salud.gob.ec
+                </p>
+            </div>
+
+            <div class="source">
+                <h3>Organización Panamericana de la Salud / OMS</h3>
+                <p>
+                 «Dengue: síntomas, prevención y tratamiento»
+                 Consultado en 2026 · paho.org
+
+                </p>
+            </div>
+
+            <div class="source">
+                <h3>Centros para el Control y la Prevención de Enfermedades (CDC), EE. UU. </h3>
+                <p>
+                    «Evite las picaduras de mosquitos» — Especiales CDC en Español
+                    Consultado en 2026 · cdc.gov/spanish
+                  
+                </p>
+            </div>
+
+            <div class="source">
+                <h3>Centros para el Control y la Prevención de Enfermedades (CDC), EE. UU.</h3>
+                <p>
+                    «Prevención de picaduras de mosquito» — hoja informativa (PDF)
+                    Noviembre 2024 · cdc.gov
+                </p>
+            </div>
+
+        </div>
 
     </div>
 
 </section>
 
 
+<!-- ================= MODAL ================= -->
 
-<!-- ================= PIE DE PÁGINA ================= -->
+<div class="modal" id="modalImagen" onclick="cerrarImagen()">
+
+    <span class="close">&times;</span>
+
+    <img id="imagenGrande" src="" alt="Imagen ampliada">
+
+</div>
+
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
-    <h3>
-        Uso adecuado del repelente para mosquitos
-    </h3>
+    <p>
+        <strong>Uso adecuado del repelente para mosquitos</strong>
+    </p>
 
     <p>
-        Unidad Educativa de las Fuerzas Armadas ·
-        Liceo Naval de Guayaquil
+        Unidad Educativa de las Fuerzas Armadas
+    </p>
+
+    <p>
+        Liceo Naval de Guayaquil «Cmdte. Rafael Andrade Lalama»
+    </p>
+
+    <p>
+        1ro Delta · 22 de Septiembre de 2026
+    </p>
+
+    <p>
+        Estudiante participante: Caiza Nicole
     </p>
 
 </footer>
 
+
+<script>
+
+    function abrirImagen(imagen) {
+
+        document.getElementById("imagenGrande").src = imagen;
+
+        document.getElementById("modalImagen").style.display = "flex";
+
+    }
+
+
+    function cerrarImagen() {
+
+        document.getElementById("modalImagen").style.display = "none";
+
+    }
+
+
+    document.addEventListener("keydown", function(event) {
+
+        if (event.key === "Escape") {
+
+            cerrarImagen();
+
+        }
+
+    });
+
+</script>
 
 </body>
 </html>
