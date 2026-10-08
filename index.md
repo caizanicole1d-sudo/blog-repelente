@@ -52,48 +52,77 @@
         /* ================= INICIO ================= */
 
         .hero {
-            min-height: 82vh;
-            background:
-                linear-gradient(rgba(28,58,41,.84), rgba(28,58,41,.84)),
-                url("imagenes/portada.jpg") center/cover no-repeat;
-
+            min-height: 650px;
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             text-align: center;
+            padding: 80px 25px;
+
+            background:
+                linear-gradient(
+                    rgba(31, 67, 49, 0.82),
+                    rgba(31, 67, 49, 0.82)
+                ),
+                linear-gradient(135deg, #789681, #d8dfd3);
+
             color: white;
-            padding: 40px 20px;
         }
 
         .hero-content {
-            max-width: 1000px;
+            max-width: 950px;
+        }
+
+        .school {
+            font-size: 15px;
+            letter-spacing: 2px;
+            line-height: 1.8;
+            margin-bottom: 35px;
+            text-transform: uppercase;
+        }
+
+        .project {
+            font-size: 13px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            color: #f0d9a7;
         }
 
         .hero h1 {
-            font-size: clamp(38px, 6vw, 65px);
-            line-height: 1.1;
-            margin-bottom: 20px;
+            font-size: clamp(42px, 7vw, 76px);
+            line-height: 1.05;
+            margin-bottom: 35px;
+            font-weight: 700;
         }
 
-        .hero h2 {
-            font-size: 22px;
-            font-weight: normal;
-            margin-bottom: 30px;
-            color: #e4eade;
+        .student-info {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            max-width: 900px;
+            margin: 35px auto 0;
         }
 
-        .hero-info {
-            display: inline-block;
-            text-align: left;
-            padding: 23px 30px;
-            border-radius: 20px;
-            background: rgba(255,255,255,.12);
-            border: 1px solid rgba(255,255,255,.25);
+        .info-box {
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.25);
+            border-radius: 15px;
+            padding: 18px 12px;
             backdrop-filter: blur(5px);
         }
 
-        .hero-info p {
-            margin: 5px 0;
+        .info-box strong {
+            display: block;
+            color: #f0d9a7;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .info-box span {
+            font-size: 15px;
         }
 
         /* ================= SECCIONES ================= */
