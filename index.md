@@ -543,7 +543,7 @@
         </div>
 
         <div class="project">
-            Proyecto interdisciplinario
+            Proyecto Interdisciplinario
         </div>
 
         <h1>
@@ -579,6 +579,7 @@
     </div>
 
 </header>
+
 
 
 
