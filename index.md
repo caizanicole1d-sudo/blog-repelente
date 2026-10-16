@@ -1052,15 +1052,15 @@
             <div class="photos">
 
                 <div class="photo" onclick="abrirImagen('imagenes/evidencia1.jpg')">
-                    <img src="imagenes/evidencia1.jpg" alt="Evidencia 1: Investigación">
+                    <img src="evidencia1.jpg" alt="Evidencia 1: Investigación">
                 </div>
 
                 <div class="photo" onclick="abrirImagen('imagenes/evidencia2.jpg')">
-                    <img src="imagenes/evidencia2.jpg" alt="Evidencia 2: Investigación">
+                    <img src="evidencia2.jpg" alt="Evidencia 2: Investigación">
                 </div>
 
                 <div class="photo" onclick="abrirImagen('imagenes/evidencia3.jpg')">
-                    <img src="imagenes/evidencia3.jpg" alt="Evidencia 3: Investigación">
+                    <img src="evidencia3.jpg" alt="Evidencia 3: Investigación">
                 </div>
 
             </div>
@@ -1072,11 +1072,11 @@
             <div class="photos">
 
                 <div class="photo" onclick="abrirImagen('imagenes/evidencia4.jpg')">
-                    <img src="imagenes/evidencia4.jpg" alt="Evidencia 4: Elaboración">
+                    <img src="evidencia4.jpg" alt="Evidencia 4: Elaboración">
                 </div>
 
                 <div class="photo" onclick="abrirImagen('imagenes/evidencia5.jpg')">
-                    <img src="imagenes/evidencia5.jpg" alt="Evidencia 5: Elaboración">
+                    <img src="evidencia5.jpg" alt="Evidencia 5: Elaboración">
                 </div>
 
             </div>
