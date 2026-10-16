@@ -1100,14 +1100,11 @@
 
     <div class="product-box">
 
-        <div class="product-image">
+    
+<div class="product-image">
+    <img src="producto final.png" alt="Producto final elaborado">
+</div>
 
-            <img
-                src="imagenes/producto.jpg"
-                alt="Producto elaborado"
-            >
-
-        </div>
 
         <div>
 
