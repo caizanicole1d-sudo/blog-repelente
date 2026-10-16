@@ -1031,6 +1031,7 @@
 
 <!-- ================= SECCIÓN 04 ================= -->
 
+
 <section id="evidencias">
 
     <div class="evidence-content">
@@ -1046,65 +1047,36 @@
             Haz clic sobre una imagen para verla en tamaño grande.
         </p>
 
-
         <div class="stage">
-
-            <h3>Investigación</h3>
 
             <div class="photos">
 
                 <div class="photo" onclick="abrirImagen('imagenes/evidencia1.jpg')">
-                    <img src="imagenes/evidencia1.jpg" alt="Evidencia 1">
+                    <img src="imagenes/evidencia1.jpg" alt="Evidencia 1: Investigación">
                 </div>
 
                 <div class="photo" onclick="abrirImagen('imagenes/evidencia2.jpg')">
-                    <img src="imagenes/evidencia2.jpg" alt="Evidencia 2">
+                    <img src="imagenes/evidencia2.jpg" alt="Evidencia 2: Investigación">
                 </div>
 
                 <div class="photo" onclick="abrirImagen('imagenes/evidencia3.jpg')">
-                    <img src="imagenes/evidencia3.jpg" alt="Evidencia 3">
+                    <img src="imagenes/evidencia3.jpg" alt="Evidencia 3: Investigación">
                 </div>
 
             </div>
 
         </div>
 
-
         <div class="stage">
-
-            <h3>Elaboración</h3>
 
             <div class="photos">
 
                 <div class="photo" onclick="abrirImagen('imagenes/evidencia4.jpg')">
-                    <img src="imagenes/evidencia4.jpg" alt="Evidencia 4">
+                    <img src="imagenes/evidencia4.jpg" alt="Evidencia 4: Elaboración">
                 </div>
 
                 <div class="photo" onclick="abrirImagen('imagenes/evidencia5.jpg')">
-                    <img src="imagenes/evidencia5.jpg" alt="Evidencia 5">
-                </div>
-
-                <div class="photo" onclick="abrirImagen('imagenes/evidencia6.jpg')">
-                    <img src="imagenes/evidencia6.jpg" alt="Evidencia 6">
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="stage">
-
-            <h3>Proceso del proyecto</h3>
-
-            <div class="photos">
-
-                <div class="photo" onclick="abrirImagen('imagenes/evidencia7.jpg')">
-                    <img src="imagenes/evidencia7.jpg" alt="Evidencia 7">
-                </div>
-
-                <div class="photo" onclick="abrirImagen('imagenes/evidencia8.jpg')">
-                    <img src="imagenes/evidencia8.jpg" alt="Evidencia 8">
+                    <img src="imagenes/evidencia5.jpg" alt="Evidencia 5: Elaboración">
                 </div>
 
             </div>
